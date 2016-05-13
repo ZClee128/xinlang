@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		041490261CD09294001B3905 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041490251CD09294001B3905 /* AppDelegate.swift */; };
-		041490281CD09294001B3905 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041490271CD09294001B3905 /* ViewController.swift */; };
-		0414902B1CD09294001B3905 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041490291CD09294001B3905 /* Main.storyboard */; };
 		0414902D1CD09294001B3905 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0414902C1CD09294001B3905 /* Assets.xcassets */; };
 		041490301CD09294001B3905 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0414902E1CD09294001B3905 /* LaunchScreen.storyboard */; };
 		0414903B1CD09294001B3905 /* xinlangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414903A1CD09294001B3905 /* xinlangTests.swift */; };
 		041490461CD09294001B3905 /* xinlangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041490451CD09294001B3905 /* xinlangUITests.swift */; };
+		041490541CD09455001B3905 /* ZCTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041490531CD09455001B3905 /* ZCTabBarController.swift */; };
+		041490581CD0970F001B3905 /* tabbar.plist in Resources */ = {isa = PBXBuildFile; fileRef = 041490571CD0970F001B3905 /* tabbar.plist */; };
+		0414905A1CD097A9001B3905 /* ZCNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041490591CD097A9001B3905 /* ZCNews.swift */; };
+		041490611CD0983A001B3905 /* ZCPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041490601CD0983A001B3905 /* ZCPicture.swift */; };
+		041490641CD098D7001B3905 /* ZCVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041490631CD098D7001B3905 /* ZCVideo.swift */; };
+		041490671CD098F4001B3905 /* ZCMine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041490661CD098F4001B3905 /* ZCMine.swift */; };
+		0414906B1CD0B79C001B3905 /* OCDome.m in Sources */ = {isa = PBXBuildFile; fileRef = 0414906A1CD0B79C001B3905 /* OCDome.m */; };
+		0414906E1CD0D972001B3905 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414906D1CD0D972001B3905 /* NewsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +42,6 @@
 /* Begin PBXFileReference section */
 		041490221CD09293001B3905 /* xinlang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xinlang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		041490251CD09294001B3905 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		041490271CD09294001B3905 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0414902A1CD09294001B3905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0414902C1CD09294001B3905 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0414902F1CD09294001B3905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041490311CD09294001B3905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +51,16 @@
 		041490411CD09294001B3905 /* xinlangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xinlangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		041490451CD09294001B3905 /* xinlangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xinlangUITests.swift; sourceTree = "<group>"; };
 		041490471CD09294001B3905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041490531CD09455001B3905 /* ZCTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZCTabBarController.swift; sourceTree = "<group>"; };
+		041490571CD0970F001B3905 /* tabbar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = tabbar.plist; path = ../tabbar.plist; sourceTree = "<group>"; };
+		041490591CD097A9001B3905 /* ZCNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZCNews.swift; sourceTree = "<group>"; };
+		041490601CD0983A001B3905 /* ZCPicture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZCPicture.swift; sourceTree = "<group>"; };
+		041490631CD098D7001B3905 /* ZCVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZCVideo.swift; sourceTree = "<group>"; };
+		041490661CD098F4001B3905 /* ZCMine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZCMine.swift; sourceTree = "<group>"; };
+		041490681CD0B79B001B3905 /* xinlang-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xinlang-Bridging-Header.h"; sourceTree = "<group>"; };
+		041490691CD0B79C001B3905 /* OCDome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCDome.h; sourceTree = "<group>"; };
+		0414906A1CD0B79C001B3905 /* OCDome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCDome.m; sourceTree = "<group>"; };
+		0414906D1CD0D972001B3905 /* NewsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +111,18 @@
 		041490241CD09294001B3905 /* xinlang */ = {
 			isa = PBXGroup;
 			children = (
+				0414905D1CD097CE001B3905 /* controller */,
+				0414905C1CD097C3001B3905 /* view */,
+				0414905B1CD097B6001B3905 /* model */,
 				041490251CD09294001B3905 /* AppDelegate.swift */,
-				041490271CD09294001B3905 /* ViewController.swift */,
-				041490291CD09294001B3905 /* Main.storyboard */,
+				041490531CD09455001B3905 /* ZCTabBarController.swift */,
+				041490691CD0B79C001B3905 /* OCDome.h */,
+				0414906A1CD0B79C001B3905 /* OCDome.m */,
+				041490571CD0970F001B3905 /* tabbar.plist */,
 				0414902C1CD09294001B3905 /* Assets.xcassets */,
 				0414902E1CD09294001B3905 /* LaunchScreen.storyboard */,
 				041490311CD09294001B3905 /* Info.plist */,
+				041490681CD0B79B001B3905 /* xinlang-Bridging-Header.h */,
 			);
 			path = xinlang;
 			sourceTree = "<group>";
@@ -123,6 +143,72 @@
 				041490471CD09294001B3905 /* Info.plist */,
 			);
 			path = xinlangUITests;
+			sourceTree = "<group>";
+		};
+		0414905B1CD097B6001B3905 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		0414905C1CD097C3001B3905 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0414906C1CD0D948001B3905 /* 新闻view */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		0414905D1CD097CE001B3905 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				041490651CD098DF001B3905 /* 我的 */,
+				041490621CD09890001B3905 /* 视频 */,
+				0414905F1CD097F8001B3905 /* 图片 */,
+				0414905E1CD097E2001B3905 /* 新闻 */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		0414905E1CD097E2001B3905 /* 新闻 */ = {
+			isa = PBXGroup;
+			children = (
+				041490591CD097A9001B3905 /* ZCNews.swift */,
+			);
+			name = "新闻";
+			sourceTree = "<group>";
+		};
+		0414905F1CD097F8001B3905 /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+				041490601CD0983A001B3905 /* ZCPicture.swift */,
+			);
+			name = "图片";
+			sourceTree = "<group>";
+		};
+		041490621CD09890001B3905 /* 视频 */ = {
+			isa = PBXGroup;
+			children = (
+				041490631CD098D7001B3905 /* ZCVideo.swift */,
+			);
+			name = "视频";
+			sourceTree = "<group>";
+		};
+		041490651CD098DF001B3905 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				041490661CD098F4001B3905 /* ZCMine.swift */,
+			);
+			name = "我的";
+			sourceTree = "<group>";
+		};
+		0414906C1CD0D948001B3905 /* 新闻view */ = {
+			isa = PBXGroup;
+			children = (
+				0414906D1CD0D972001B3905 /* NewsCell.swift */,
+			);
+			name = "新闻view";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +315,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041490581CD0970F001B3905 /* tabbar.plist in Resources */,
 				041490301CD09294001B3905 /* LaunchScreen.storyboard in Resources */,
 				0414902D1CD09294001B3905 /* Assets.xcassets in Resources */,
-				0414902B1CD09294001B3905 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +342,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041490281CD09294001B3905 /* ViewController.swift in Sources */,
+				041490541CD09455001B3905 /* ZCTabBarController.swift in Sources */,
+				0414906B1CD0B79C001B3905 /* OCDome.m in Sources */,
 				041490261CD09294001B3905 /* AppDelegate.swift in Sources */,
+				0414905A1CD097A9001B3905 /* ZCNews.swift in Sources */,
+				041490611CD0983A001B3905 /* ZCPicture.swift in Sources */,
+				041490641CD098D7001B3905 /* ZCVideo.swift in Sources */,
+				0414906E1CD0D972001B3905 /* NewsCell.swift in Sources */,
+				041490671CD098F4001B3905 /* ZCMine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +385,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		041490291CD09294001B3905 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0414902A1CD09294001B3905 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0414902E1CD09294001B3905 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -399,10 +483,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = xinlang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lzc.xinlang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "xinlang/xinlang-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -410,10 +497,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = xinlang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lzc.xinlang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "xinlang/xinlang-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +571,7 @@
 				0414904C1CD09294001B3905 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0414904D1CD09294001B3905 /* Build configuration list for PBXNativeTarget "xinlangTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +580,7 @@
 				0414904F1CD09294001B3905 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		041490501CD09294001B3905 /* Build configuration list for PBXNativeTarget "xinlangUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +589,7 @@
 				041490521CD09294001B3905 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

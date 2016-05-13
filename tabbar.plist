@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>selectImage</key>
+		<string>tabbar_news_hl</string>
+		<key>image</key>
+		<string>tabbar_news</string>
+		<key>clsName</key>
+		<string>ZCNews</string>
+		<key>title</key>
+		<string>新闻</string>
+	</dict>
+	<dict>
+		<key>selectImage</key>
+		<string>tabbar_picture_hl</string>
+		<key>image</key>
+		<string>tabbar_picture</string>
+		<key>clsName</key>
+		<string>ZCPicture</string>
+		<key>title</key>
+		<string>图片</string>
+	</dict>
+	<dict>
+		<key>selectImage</key>
+		<string>tabbar_video_hl</string>
+		<key>image</key>
+		<string>tabbar_video</string>
+		<key>clsName</key>
+		<string>ZCVideo</string>
+		<key>title</key>
+		<string>视频</string>
+	</dict>
+	<dict>
+		<key>selectImage</key>
+		<string>tabbar_setting_hl</string>
+		<key>image</key>
+		<string>tabbar_setting</string>
+		<key>clsName</key>
+		<string>ZCMine</string>
+		<key>title</key>
+		<string>我的</string>
+	</dict>
+</array>
+</plist>
